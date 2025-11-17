@@ -11,12 +11,12 @@
 
 <body class="bg-[#f3f4f0] min-h-screen flex">
     <div class="w-2/3">
-        <img class="w-full h-screen object-cover" src="marca/foto_exterior.jpg" alt="foto_exterior">
+        <img class="w-full h-screen object-cover" src="marca/foto_exterior.webp" alt="foto_exterior">
     </div>
 
     <div class="w-1/3 flex flex-col justify-between p-8">
         <div class="flex justify-center pt-16">
-            <img class="h-16 w-auto" src="marca/PrintHub_Principal_Transparente.png" alt="logo_printhub">
+            <img class="h-16 w-auto" src="marca/PrintHub_Principal_Transparente.webp" alt="logo_printhub">
         </div>
 
         <div class="flex flex-col items-center justify-center flex-grow">

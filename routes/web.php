@@ -28,10 +28,16 @@ Route::get('/', function () {
 
 //protegidas o logeadas
 Route::middleware(['auth'])->group(function () {
+    Route::post('/logout', [UserController::class, 'logout']);
     Route::get('/dashboard', function () {
         return view('dashboard');
     });
-    Route::post('/logout', [UserController::class, 'logout']);
+    Route::get('/inventory', function () {
+        return view('inventory');
+    });
+    Route::get('/bills', function () {
+        return view('bills');
+    });
 });
 
 //no logeadas o invitadas
